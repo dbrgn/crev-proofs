@@ -48,3 +48,27 @@ comment: |-
 x3ahaQRnBUR0HUBWEAFdZtCRiw3niwPQEqBq8GtLqdQGVglRXFMOorYAJnesYrDein45oUVsiQYZGS6H1KDOBQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-26T14:42:01.868820597+01:00"
+from:
+  id-type: crev
+  id: ILvan_fvVdN8cSH8GC7kB_h-3W6xWnafsCUTpdoTxQ4
+  url: "https://github.com/dbrgn/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: spaceapi
+  version: 0.7.0
+  revision: 4ad219925458ba84e894e072d84cf1caf1ed8584
+  digest: v4tTCGLjsUtxwxvipjjOsPJUXSsoznWkTN2IKcgO6Ps
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  I'm one of the authors. This crate contains just types for serialization and is of low complexity. No unsafe. Using this in production.
+----- SIGN CREV PROOF -----
+DE3ZssEIK1wyJqISZI6j5_UMejTT3h14m2rCgBshTF4RaI_LyQz3OyPbkw9O_EJngRm-fB7o5lbgj9vOM9MmCw
+----- END CREV PROOF -----
+
