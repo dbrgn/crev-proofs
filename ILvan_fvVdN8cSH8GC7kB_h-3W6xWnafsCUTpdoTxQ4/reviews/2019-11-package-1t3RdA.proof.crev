@@ -1,0 +1,27 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-26T14:11:13.507441619+01:00"
+from:
+  id-type: crev
+  id: ILvan_fvVdN8cSH8GC7kB_h-3W6xWnafsCUTpdoTxQ4
+  url: "https://github.com/dbrgn/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: typeable
+  version: 0.1.2
+  digest: ikjezFq_YpKZjecPzjiEAfoMHpQtSf7eCfKMMU4D9Wo
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  This package with its 6 lines of code and no dependencies is reasonably simple
+  that I can claim that it's secure!
+  
+  The crate is potentially unmaintained since the author did not react to two
+  license-related minor issues, but the project is arguably feature-complete.
+----- SIGN CREV PROOF -----
+g45euN67vNeIYM-Dd888ve8Cn9wXwFwinUXT4kzHPcHvq1EMaANHRzYqlwdbTdDrJD-mtug6fe5XF7DSDDZvBg
+----- END CREV PROOF -----
+
