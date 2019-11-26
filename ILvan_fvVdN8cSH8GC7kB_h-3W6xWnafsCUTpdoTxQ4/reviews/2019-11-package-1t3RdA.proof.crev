@@ -72,3 +72,32 @@ comment: |-
 DE3ZssEIK1wyJqISZI6j5_UMejTT3h14m2rCgBshTF4RaI_LyQz3OyPbkw9O_EJngRm-fB7o5lbgj9vOM9MmCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-26T15:29:06.249575842+01:00"
+from:
+  id-type: crev
+  id: ILvan_fvVdN8cSH8GC7kB_h-3W6xWnafsCUTpdoTxQ4
+  url: "https://github.com/dbrgn/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: simple-text-pattern
+  version: 0.1.0
+  revision: 53ecf0800659a814f5bde1e134ae8e99ae363ffa
+  digest: gx4HH9BREZ6QQW8Lsy9ltKihdz46U584Y2moY6isiFs
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: neutral
+comment: |-
+  Overall the code looks clean and easy to understand, with the exception of
+  the is_match / handle_text functions in lib.rs... Those are a bit hard to wrap
+  the head around and could probably be refactored for easier understanding.
+  
+  Performancewise I have the feeling that a few allocations could be avoided,
+  but I didn't fully think through alternative implementations.
+----- SIGN CREV PROOF -----
+BxWv4xiOqEmnyN2ndp5YJ2UKDItv6V31U63CIgHXeHPn6F6QdaSEsu1m3fKEZ-bsQszR-ts7Jnvx1CUgUGHzBA
+----- END CREV PROOF -----
+
