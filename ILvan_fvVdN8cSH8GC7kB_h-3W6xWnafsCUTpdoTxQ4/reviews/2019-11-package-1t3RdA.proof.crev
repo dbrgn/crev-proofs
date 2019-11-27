@@ -101,3 +101,29 @@ comment: |-
 BxWv4xiOqEmnyN2ndp5YJ2UKDItv6V31U63CIgHXeHPn6F6QdaSEsu1m3fKEZ-bsQszR-ts7Jnvx1CUgUGHzBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-27T11:19:51.883582177+01:00"
+from:
+  id-type: crev
+  id: ILvan_fvVdN8cSH8GC7kB_h-3W6xWnafsCUTpdoTxQ4
+  url: "https://github.com/dbrgn/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: thiserror
+  version: 1.0.4
+  revision: 507914148ad4c69837ae42eb7930cb9e4f2fdc5b
+  digest: 6lgvZF3f3ln0UJdQDBk6UZ3ccG_4C280gge6W_hrMfE
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  This is mostly just a wrapper around `thiserror_impl`, so not much to do
+  wrong there. I don't understand the undocumented `private::AsDynError` trait
+  though, it doesn't seem to be used in any examples or tests.
+----- SIGN CREV PROOF -----
+pS5c1wM3Ff337vLsiFK_gpl3aVFsL9mD8c9w6419ZHBdX_P-3a-jQjdaNGOTPP3e4fFepndkIkxngp-ZcAe0DQ
+----- END CREV PROOF -----
+
