@@ -1,0 +1,36 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-08-10T17:05:43.134670350+02:00"
+from:
+  id-type: crev
+  id: ILvan_fvVdN8cSH8GC7kB_h-3W6xWnafsCUTpdoTxQ4
+  url: "https://github.com/dbrgn/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: tempfile-fast
+  version: 0.3.3
+  revision: b0e2b72ae3acb2f7b2b6daac58f5de905d44325c
+  digest: GzwI8ul5mibeuoV4p3a8K8GhvlQO7d6HzbrHdfVulao
+review:
+  thoroughness: medium
+  understanding: low
+  rating: positive
+alternatives:
+  - source: "https://crates.io"
+    name: tempfile
+comment: |-
+  I focussed my review on the `linux` and `persistable` modules, I did not take
+  a look at the `sponge` module.
+  
+  The code looks straightforward, even though I am not terribly familiar with
+  the POSIX file APIs. I did not spot anything obviously bad.
+  
+  Pull requests created as part of this review:
+  
+  - https://github.com/FauxFaux/tempfile-fast-rs/pull/2
+  - https://github.com/FauxFaux/tempfile-fast-rs/pull/3
+----- SIGN CREV PROOF -----
+k9f19PlAS_vQtndVVocC2Ep33aUQl-eaZ_lD1jI4h22mUJpwho-T_ErHKHmehfO68gk4rqLtYtk6CyUglr1lAg
+----- END CREV PROOF -----
+
