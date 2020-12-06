@@ -1,0 +1,34 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2020-12-06T01:00:36.179250815+01:00"
+from:
+  id-type: crev
+  id: ILvan_fvVdN8cSH8GC7kB_h-3W6xWnafsCUTpdoTxQ4
+  url: "https://github.com/dbrgn/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: http-auth-basic
+  version: 0.1.2
+  revision: 42855a0ffa48ff3212e5a39ebd8c4e27c30710e5
+  digest: p8j8ve_OLDrcQF5zb0aBuo0-jqBbsxGcnCS7-10rfO8
+review:
+  thoroughness: medium
+  understanding: high
+  rating: neutral
+comment: |-
+  This is a very small crate that encodes and decodes basic auth headers (which
+  is essentially just a base64 `user:password` string). It might be handy in
+  some situations.
+  
+  The crate looks correct overall and is covered with tests. It could however
+  be made more efficient, there are a lot of allocations going on that could be
+  avoided (e.g. copying strings, taking strings instead of slices in an API,
+  collecting parts into Vec<String> after splitting, etc). That's not an issue
+  at all for small, non-performance-critical projects, but it might be a minor
+  issue if you're performance-sensitive and do a lot of authentication
+  handling.
+----- SIGN CREV PROOF -----
+KGs8nwOSPk7Xc9K0d3VmewpRr6CAciD5E5KiKpT-7h5d9_KwpJPPIGdajwnlHsvaMxktWSf3eYio2gca0dyvBg
+----- END CREV PROOF -----
+
